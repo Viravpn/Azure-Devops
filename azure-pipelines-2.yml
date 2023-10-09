@@ -9,7 +9,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  virrg: 'virDevops'
+  virrg: 'devops'
   virstrg: 'virterraformst'
   vircaontainer: 'adanitstate'
   virkey: 'vir.terraform.tfstate'
