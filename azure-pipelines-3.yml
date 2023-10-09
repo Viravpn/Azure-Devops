@@ -41,7 +41,7 @@ stages:
               provider: 'azurerm'
               command: 'validate'
   - stage: tfdepoly
-    condition: succeeded(ifvalidate)
+    condition: succeeded(tfvalidate)
     dependsOn: tfvalidate
     jobs:
       - job: apply
