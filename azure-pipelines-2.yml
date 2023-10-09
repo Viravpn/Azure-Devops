@@ -12,7 +12,7 @@ variables:
   virrg: 'virDevops'
   virstrg: 'virterraformst'
   vircaontainer: 'adanitstate'
-  virkey: 'key1'
+  virkey: 'vir.terraform.tfstate'
 
 stages:
   - stage: tfvalidate
