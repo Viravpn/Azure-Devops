@@ -15,7 +15,7 @@ variables:
   virkey: 'virterraformst'
 
 stages:
-  - stage: ifvalidate
+  - stage: tfvalidate
     jobs:
       - job: validate
         continueOnError: false
